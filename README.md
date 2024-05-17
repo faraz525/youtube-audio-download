@@ -41,7 +41,9 @@ Contributions to this project are welcome! Please fork the repository and submit
 
 ## TODO
 
-Will be adding support for different services such as soundcloud, spotify and more. Primarily meant for DJs who need to find a way to download audio.
+Will be adding support for different services such as soundcloud, spotify and more. Primarily meant for DJs who need to find a way to download audio. 
+
+Enable SSL verification. Turned off due to some issues with youtube-dl not being able to recognize SSL. Be cautious with links that are uploaded.
 
 ## License
 
