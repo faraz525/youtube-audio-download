@@ -18,9 +18,11 @@ git clone https://github.com/yourusername/youtube-audio-downloader.git
 
 2. Install the required packages:
 
-pip install pip3 install --upgrade --force-reinstall "git+https://github.com/ytdl-org/youtube-dl.git"
+pip3 install -r requirements.txt
 
-sudo apt-get install ffmpeg # For Ubuntu/Debian or brew install ffmpeg for macOS
+pip3 install --upgrade --force-reinstall "git+https://github.com/ytdl-org/youtube-dl.git"
+
+sudo apt-get install ffmpeg # For Ubuntu/Debian or brew install ffmpeg for macOS. IDK for windows.
 
 
 ## Usage
