@@ -1,2 +1,4 @@
 youtube-dl
 certifi
+spotify
+python-dotenv

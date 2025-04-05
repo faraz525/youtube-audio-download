@@ -1,10 +1,14 @@
 import spotify
-
 import asyncio
+import os
+from dotenv import load_dotenv
 
-CLIENT_ID: str = "66f71e1f4f4a4cb0918c9f4a8dd67639"
-CLIENT_SECRET: str = "8e632b78c6884e89a69a3543adae2a81"
-ALBUM_URI: str = "spotify:album:4aawyAB9vmqN3uQ7FjRGTy"
+# Load environment variables from .env file
+load_dotenv()
+
+CLIENT_ID: str = os.getenv("SPOTIFY_CLIENT_ID")
+CLIENT_SECRET: str = os.getenv("SPOTIFY_CLIENT_SECRET")
+ALBUM_URI: str = os.getenv("SPOTIFY_ALBUM_URI")
 
 async def get_album_tracks(ident: str, secret: str, album_uri: str) -> None:
     # Useful tip: use a context manager to handle
